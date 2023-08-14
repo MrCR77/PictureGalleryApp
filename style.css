@@ -37,12 +37,12 @@ body{
   }
 
   #btn{
-    height: 30px;
+    height: 33px;
     width: 100px;
     background-color: black;
     color: aliceblue;
     font-size: 15px;
-    border-radius: 14px;
+    border-radius: 5px;
   }
 
   #category{
