@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -15,4 +20,40 @@
     width: 100%;
     height: 400px;
     object-fit: cover;
+  }
+
+  .head{
+    height: 55px;
+    background-color: #131414;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+
+  .head h1{
+    margin: 0px;
+    margin-left: 15px;
+  }
+
+  #btn{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 14px;
+  }
+
+  #category{
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+
+  label{
+    font-size: 25px;
+    font-weight: bolder;
   }
